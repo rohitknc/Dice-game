@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-color: aqua;
+}
+.imgc
+{
+    
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border: 1px solid rgb(187, 128, 10);
+   
+}
+.btclass
+{
+    position: relative;
+    top:-100px;
+    text-align: center;
+}
+button
+{
+    width: 100px;
+    padding: 9px 4px;
+    background-color: rgb(18, 230, 103);
+    border: none;
+    border-radius: 5px;
+    
+}
+.main
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    position: relative;
+    inset: 16px;
+    width: 100px;
+    height: 100px;
+    transform: scale(1);
+}
+.winner
+{
+    position: relative;
+    top:-150px;
+    left:37%;
+    padding: 10px;
+    border: 1px solid rgb(161, 21, 21);
+    width:200px;
+    color:rgb(197, 10, 169);
+}
+h3{
+    position: relative;
+    left:22px;
+    bottom: 17px;
+    font-size:25px;
+    color: rgba(17, 80, 227, 0.756);
+}
